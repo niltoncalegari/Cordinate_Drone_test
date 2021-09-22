@@ -46,13 +46,14 @@
             }
 
             var input = inputNew.ToUpper();
+            // Match if Starts with number Or there character "X" followed by number Or there any Character different than NLSOX and numbers
             if (Regex.Match(input, @"^[0-9]").Success
              || Regex.Match(input, @"[xX]+[0-9]").Success
              || Regex.Match(input, @"[^NLSOX/0-9]").Success)
             {
                 return invalidCoordinate;
             }
-
+            // Remove all letter NLSO followed by X
             var cleanedInput = Regex.Replace(input, @"[NLSO]X", "");
             do
             {
@@ -60,14 +61,17 @@
             }
             while (Regex.Match(cleanedInput, @"[NLSO]X").Success);
 
+            // Remove all letter NLSO followedby number followed by X
             var cleanedInputNumberPlusX = Regex.Replace(cleanedInput, @"[NLSO][0-9]{1,10}X", "");
+
+            // If there number of steps with more than 11 digits
             if (Regex.Match(cleanedInputNumberPlusX, @"[NLSO][0-9]{11}").Success)
             {
                 return invalidCoordinate;
             }
 
             var verifyStepValue = Regex.Matches(cleanedInputNumberPlusX, @"[0-9]{1,10}");
-
+            // Verify if there step number greater than 2147483647
             foreach (var item in verifyStepValue)
             {
                 var value = Int64.Parse(item.ToString());
@@ -89,6 +93,7 @@
 
             var matchesToSum = Regex.Matches(input, @"[NLSO][0-9]{1,10}");
 
+            // Sum step number with properly Coordinate
             foreach (var item in matchesToSum)
             {
                 var coordinate = Regex.Match(item.ToString(), @"[NLSO]");
@@ -117,6 +122,7 @@
 
             var listChars = remainingCoordinates.ToCharArray();
 
+            // Sum remaining Coordinates
             for (int i = 0; i < listChars.Length; i++)
             {
                 switch (listChars[i])
@@ -141,6 +147,7 @@
             var _x = _l - _o;
             var _y = _n - _s;
 
+            // Verify if any Coordinate is Overflow
             if ((_x > 2147483647 || _y > 2147483647) || (_x < -2147483647 || _y < -2147483647))
             {
                 return invalidCoordinate;
