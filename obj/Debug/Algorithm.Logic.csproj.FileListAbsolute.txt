@@ -1,0 +1,7 @@
+C:\Users\nilto\Desktop\Algorithm.Logic\bin\Debug\Algorithm.Logic.dll.config
+C:\Users\nilto\Desktop\Algorithm.Logic\bin\Debug\Algorithm.Logic.dll
+C:\Users\nilto\Desktop\Algorithm.Logic\bin\Debug\Algorithm.Logic.pdb
+C:\Users\nilto\Desktop\Algorithm.Logic\obj\Debug\Algorithm.Logic.csproj.AssemblyReference.cache
+C:\Users\nilto\Desktop\Algorithm.Logic\obj\Debug\Algorithm.Logic.csproj.CoreCompileInputs.cache
+C:\Users\nilto\Desktop\Algorithm.Logic\obj\Debug\Algorithm.Logic.dll
+C:\Users\nilto\Desktop\Algorithm.Logic\obj\Debug\Algorithm.Logic.pdb

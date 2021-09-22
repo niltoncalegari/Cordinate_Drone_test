@@ -1,0 +1,11 @@
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.Tests.dll
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.Tests.pdb
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.dll
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.pdb
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.dll.config
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.AssemblyReference.cache
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.CoreCompileInputs.cache
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.CopyComplete
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.dll
+C:\Users\nilto\Desktop\Algorithm.Logic\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.pdb
